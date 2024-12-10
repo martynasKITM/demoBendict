@@ -54,7 +54,7 @@ public class ContactsController {
         String name = nameField.getText();
         String surname = surnameField.getText();
         String phoneNumber = phoneNrField.getText();
-        //System.out.println(name);
+        System.out.println(name);
 
 
         contacts.add(new Contact(name, surname, phoneNumber));
